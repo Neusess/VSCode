@@ -1,0 +1,113 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnType": true,
+    "workbench.settings.applyToAllProfiles": ["editor.formatOnSave", "prettier.printWidth"],
+    "liveServer.settings.donotVerifyTags": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "prettier.tabWidth": 4,
+    "workbench.colorTheme": "Dark+ Black",
+
+    "files.exclude": {
+        "**/__pycache__": true,
+    },
+
+    // Das ist nur bei Dar+ Black so, wenn nicht, dann folgenden Code wieder auskommentieren
+
+    "editor.cursorBlinking": "solid",
+    "workbench.colorCustomizations": {
+        //Curser
+        "editor.selectionHighlightBackground": "#00ffff55", // Highlighted Textfarbe
+        "editor.selectionBackground": "#00ffff90", // Farbe der Textauswahl
+        "editor.cursorBlinking": "solid", // Verhindert das Blinken des Cursors
+        "editorCursor.foreground": "#00ff00", // Block-Cursor Hintergrundfarbe
+
+        //Active Zeile
+        "editor.cursorLineHighlight": true,
+        "editor.cursorLineHighlightBorder": "#00ff00", // Optional: Rahmenfarbe anpasse
+
+        // Editor-Ränder
+        "editorLineNumber.foreground": "#ffffff90", // Zeilennummern
+        "editorLineNumber.activeForeground": "#00ff00", // Zeilennummern
+        "editor.lineHighlightBackground": "#5a5a5a55", // Hintergrund der Zeile, in der sich der Cursor befindet
+        "editor.findMatchBackground": "#00ff00", // Hintergrundfarbe von Funden
+        "editorBracketMatch.border": "#ffff00", // Randfarbe für geschweifte Klammern
+
+        //Einrückungen
+        "editorIndentGuide.background1": "#5a5a5a", // Ändere die Hintergrundfarbe der Linien
+        "editorIndentGuide.activeBackground1": "#00ff00", // Ändere die aktive Linie
+
+        "editorGroup.border": "#ff00ff", // Ändert die Farbe der Trennlinie zwischen den Editor-Gruppen (z. B. orange)
+
+        // Terminal
+        "terminal.background": "#000000", // Dunkler Hintergrund
+        "terminal.foreground": "#dcdcdcdc", // Helle Textfarbe
+        "terminal.cursorBackground": "#5a5a5a", // Cursor (Tomatenrot)
+
+        // Panel- und Editor-Leisten
+        "panel.border": "#ff00ff", // Rand der Leiste
+        "panel.background": "#000000", // Hintergrund des Panels
+        "panelTitle.inactiveBorder": "#00ff00", // Inaktiver Tab Rand (z.B. "Output")
+
+        // Sidebar-Ränder
+        "sideBar.border": "#ff00ff", // Rand der Sidebar
+
+        // Statusbar-Ränder
+        "statusBar.border": "#ff00ff", // Rand der Statusbar
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "prettier.printWidth": 500,
+    "prettier.proseWrap": "never",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    // "code-runner.executorMap": {
+    //     "python": "powershell.exe -Command python"
+    // },
+    // "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // "code-runner.saveAllFilesBeforeRun": true
+
+    // "code-runner.runInTerminal": false,
+    // "code-runner.executorMap": {
+    //     "python": "start powershell.exe -NoExit -Command python \"${file}\""
+    // },
+    // "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+
+    "code-runner.executorMap": {
+        "python": "python -u",
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.runInTerminalOptions": {
+        "shell": "bash", // Oder "cmd" für Windows
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "python.defaultInterpreterPath": "c:\\Python313\\python.exe",
+    "pgsql.serverGroups": [
+        {
+            "name": "Servers",
+            "id": "FB08186B-58A0-4367-BC7B-2B8E7B1CA325",
+            "isDefault": true,
+        },
+    ],
+}
